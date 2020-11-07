@@ -128,6 +128,3 @@ setVolume mixer dev side volume = new_mixer
                                         LeftV -> Mixer ((dev, Vol adjusted_volume (right vol)) : rest_of_volumes) (recSource mixer)
                                         RightV -> Mixer ((dev, Vol (left vol) adjusted_volume) : rest_of_volumes) (recSource mixer)
                                         BothV -> Mixer ((dev, Vol adjusted_volume adjusted_volume) : rest_of_volumes) (recSource mixer)
-
-someFunc :: IO ()
-someFunc = putStrLn "Hello, World!"

@@ -5,7 +5,8 @@ Developed for personal use.
 
 
 # Installation
-Needs [stack](https://docs.haskellstack.org/en/stable/README/) to build.
+Needs [stack](https://docs.haskellstack.org/en/stable/README/) 
+and [SDL2](https://www.libsdl.org/download-2.0.php) to build.
 ```
 git clone https://github.com/Ivarz/minmaxer
 cd minmaxer && stack install
