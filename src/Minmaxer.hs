@@ -4,7 +4,6 @@ module Minmaxer
       , Device (..)
       , Mixer (..)
       , MixerError (..)
-      , someFunc
       , mkVolume
       , mkDevice
       , test_string
